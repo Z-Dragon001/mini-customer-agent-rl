@@ -1,0 +1,30 @@
+[
+  {
+    "name": "small_base",
+    "provider": "openai_compatible",
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "base_url": "http://127.0.0.1:8000/v1",
+    "api_key_env": "LOCAL_LLM_API_KEY",
+    "input_price_per_million": 0.0,
+    "output_price_per_million": 0.0
+  },
+  {
+    "name": "small_trained",
+    "provider": "openai_compatible",
+    "model": "outputs/customer-agent-sft",
+    "base_url": "http://127.0.0.1:8001/v1",
+    "api_key_env": "LOCAL_LLM_API_KEY",
+    "input_price_per_million": 0.0,
+    "output_price_per_million": 0.0
+  },
+  {
+    "name": "strong_general",
+    "provider": "openai_compatible",
+    "model": "replace-with-your-strong-model",
+    "base_url": "https://api.example.com/v1",
+    "api_key_env": "STRONG_MODEL_API_KEY",
+    "input_price_per_million": 0.0,
+    "output_price_per_million": 0.0
+  }
+]
+

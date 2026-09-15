@@ -1,0 +1,86 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.whl
+
+# ---------- Virtual environments ----------
+.venv/
+venv/
+ENV/
+env/
+
+# ---------- Secrets / local config ----------
+.env
+.env.*
+!.env.example
+configs/models.json
+
+# ---------- Testing & coverage ----------
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+junit*.xml
+
+# ---------- Lint / type-check caches ----------
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.pytype/
+.pyre/
+
+# ---------- Run outputs (defaults live at repo root) ----------
+/traces/
+/outputs/
+/checkpoints/
+/runs/
+/logs/
+*.log
+
+# ---------- Model weights & training artifacts ----------
+/models/
+/wandb/
+/lightning_logs/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.gguf
+*.h5
+*.msgpack
+.huggingface/
+.cache/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+*.ipynb.bak
+
+# ---------- Editors / OS ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Local scratch ----------
+/scratch/
+/tmp/
+*.tmp
+
+# NOTE: uv.lock, .python-version, configs/*.example.json,
+# data/tasks/*.jsonl and docs/ are intentionally tracked.

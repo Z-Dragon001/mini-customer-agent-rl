@@ -1,0 +1,8 @@
+{
+  "same_tensor_names": true,
+  "tensors": 504,
+  "changed_tensor_payloads": 504,
+  "source": ".art/service-agent-retail/models/qwen25-3b-experiment-fast/checkpoints/0001/adapter_model.safetensors",
+  "final": ".art/service-agent-retail/models/qwen25-3b-repair-attention/checkpoints/0022/adapter_model.safetensors",
+  "step": 22
+}

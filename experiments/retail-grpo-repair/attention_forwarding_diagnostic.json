@@ -1,0 +1,8 @@
+{
+  "source": "runtimes/art/.venv/lib/python3.12/site-packages/unsloth/models/llama.py",
+  "source_sha256": "e456110d82ad519c45afec0294a42998d29514cab83b946f54c85b4512a13d47",
+  "probe": "Installed CausalLM wrapper control flow, sentinel decoder, HAS_XFORMERS=True",
+  "custom_mask_preserved": false,
+  "custom_mask_replaced_by_lower_triangle": true,
+  "limit": "No weights, no GPU attention computation, no task-performance claim"
+}

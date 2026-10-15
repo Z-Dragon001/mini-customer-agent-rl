@@ -1,0 +1,62 @@
+{
+  "kl": {
+    "groups": 24,
+    "selected_trajectories": 96,
+    "policy_updates": 9,
+    "skipped_groups": 15,
+    "effective_update_rate": 0.375,
+    "all_failure_updates": 0,
+    "optimizer_batches": 33,
+    "train_successes": 11
+  },
+  "outcome": {
+    "groups": 24,
+    "selected_trajectories": 96,
+    "policy_updates": 8,
+    "skipped_groups": 16,
+    "effective_update_rate": 0.3333333333333333,
+    "all_failure_updates": 0,
+    "optimizer_batches": 30,
+    "train_successes": 12
+  },
+  "consistent": {
+    "groups": 24,
+    "selected_trajectories": 96,
+    "policy_updates": 9,
+    "skipped_groups": 15,
+    "effective_update_rate": 0.375,
+    "all_failure_updates": 0,
+    "optimizer_batches": 34,
+    "train_successes": 13
+  },
+  "shaped": {
+    "groups": 24,
+    "selected_trajectories": 96,
+    "policy_updates": 8,
+    "skipped_groups": 16,
+    "effective_update_rate": 0.3333333333333333,
+    "all_failure_updates": 0,
+    "optimizer_batches": 28,
+    "train_successes": 10
+  },
+  "progress": {
+    "groups": 24,
+    "selected_trajectories": 96,
+    "policy_updates": 21,
+    "skipped_groups": 3,
+    "effective_update_rate": 0.875,
+    "all_failure_updates": 13,
+    "optimizer_batches": 78,
+    "train_successes": 12
+  },
+  "attention": {
+    "groups": 24,
+    "selected_trajectories": 96,
+    "policy_updates": 21,
+    "skipped_groups": 3,
+    "effective_update_rate": 0.875,
+    "all_failure_updates": 16,
+    "optimizer_batches": 76,
+    "train_successes": 8
+  }
+}

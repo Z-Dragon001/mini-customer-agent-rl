@@ -1,5 +1,7 @@
 # 最小实验计划
 
+> 此文件是原四工具Mini Harness计划。当前官方tau零售环境与ART实验采用[单卡实验协议](../experiments/retail-3b/protocol.md)，执行记录见[实验日志](../experiments/retail-3b/journal.md)。
+
 ## 目标
 
 验证一条具体结论，而不是“做一个大 Agent”：在固定客服工具环境中，针对一种高频失败进行训练，是否能在独立测试集上提高任务成功率，同时不提高非法操作率和成本。

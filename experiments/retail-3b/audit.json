@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-10-03T15:45:40.664447+00:00",
+  "checks": {
+    "base": {
+      "completed_tasks": 55,
+      "policy_step": 0
+    },
+    "sft_eval": {
+      "completed_tasks": 55,
+      "policy_step": 1
+    },
+    "grpo_eval": {
+      "completed_tasks": 55,
+      "policy_step": 11
+    },
+    "sft": {
+      "batches": 116,
+      "samples": 58,
+      "data_sha256": "879d45d24834faa80821cbe1dcd6777d900c4ddefe69733c461fa37901412ab9"
+    },
+    "grpo": {
+      "groups": 28,
+      "policy_updates": 10,
+      "optimizer_batches": 33,
+      "rollouts": 112
+    }
+  },
+  "passed": true
+}

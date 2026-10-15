@@ -1,0 +1,13 @@
+{
+  "teacher": "traces/retail/experiment/20261003T124613Z_teacher_train_713bcceb",
+  "base": "traces/retail/experiment/20261003T133438Z_art_evaluate_56490ed2",
+  "sft": "traces/retail/experiment/20261003T140311Z_art_sft_710f263c",
+  "sft_eval": "traces/retail/experiment/20261003T141132Z_art_evaluate_d3354a9a",
+  "grpo": "traces/retail/experiment/20261003T143940Z_art_grpo_d2bf853d",
+  "grpo_eval": "traces/retail/experiment/20261003T152848Z_art_evaluate_42b430d0",
+  "base_eager_diagnostic": "traces/retail/experiment/20261003T130101Z_art_evaluate_e82870a9",
+  "sft_oom_diagnostic": "traces/retail/experiment/20261003T134642Z_art_sft_8ed7e451",
+  "sft_oom_retry_diagnostic": "traces/retail/experiment/20261003T135123Z_art_sft_4d0361c1",
+  "grpo_oom_diagnostic": "traces/retail/experiment/20261003T142645Z_art_grpo_888927cd",
+  "grpo_checkpoint_api_diagnostic": "traces/retail/experiment/20261003T143354Z_art_grpo_0f7210b7"
+}

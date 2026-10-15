@@ -1,0 +1,6482 @@
+[
+  {
+    "arm": "kl",
+    "round": 8,
+    "task_id": "10",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 9,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 8,
+    "task_id": "103",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 15,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 8,
+    "task_id": "109",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 4,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 8,
+    "task_id": "20",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 8,
+    "task_id": "23",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 4,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 8,
+    "task_id": "44",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 8,
+    "task_id": "54",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 8,
+    "task_id": "59",
+    "change": "gained",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 11,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 8,
+    "task_id": "69",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 8,
+    "task_id": "8",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 8,
+    "task_id": "83",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 19,
+      "repeated_calls": 11,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 8,
+    "task_id": "88",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 8,
+    "task_id": "91",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 4,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 8,
+    "task_id": "92",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 8,
+    "task_id": "99",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 16,
+    "task_id": "10",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 16,
+    "task_id": "103",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 9,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 16,
+    "task_id": "109",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 9,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 16,
+    "task_id": "20",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 16,
+    "task_id": "23",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 4,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 16,
+    "task_id": "44",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 16,
+    "task_id": "54",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 5,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 16,
+    "task_id": "59",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 16,
+    "task_id": "69",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 16,
+    "task_id": "8",
+    "change": "gained",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 16,
+    "task_id": "83",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 16,
+    "task_id": "88",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 9,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 16,
+    "task_id": "91",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 11,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 16,
+    "task_id": "92",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 16,
+    "task_id": "99",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 17,
+      "repeated_calls": 7,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 24,
+    "task_id": "10",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 11,
+      "repeated_calls": 2,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 24,
+    "task_id": "103",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 24,
+    "task_id": "109",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 19,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 24,
+    "task_id": "20",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 14,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 24,
+    "task_id": "23",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "too_many_errors",
+      "tool_calls": 12,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 5
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 24,
+    "task_id": "44",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 24,
+    "task_id": "54",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 24,
+    "task_id": "59",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "too_many_errors",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 5
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 24,
+    "task_id": "69",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 24,
+    "task_id": "8",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 24,
+    "task_id": "83",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "too_many_errors",
+      "tool_calls": 9,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 5
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 24,
+    "task_id": "88",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 24,
+    "task_id": "91",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 5,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 24,
+    "task_id": "92",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "kl",
+    "round": 24,
+    "task_id": "99",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "too_many_errors",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 5
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 8,
+    "task_id": "10",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 9,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 8,
+    "task_id": "103",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 8,
+    "task_id": "109",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 17,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 8,
+    "task_id": "20",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 14,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 8,
+    "task_id": "23",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 5,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 8,
+    "task_id": "44",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 8,
+    "task_id": "54",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 8,
+    "task_id": "59",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 8,
+    "task_id": "69",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 1,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 8,
+    "task_id": "8",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 10,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 8,
+    "task_id": "83",
+    "change": "gained",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 12,
+      "repeated_calls": 4,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 8,
+    "task_id": "88",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 9,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 8,
+    "task_id": "91",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 11,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 8,
+    "task_id": "92",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 11,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 8,
+    "task_id": "99",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 14,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 16,
+    "task_id": "10",
+    "change": "gained",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 16,
+    "task_id": "103",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 9,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 16,
+    "task_id": "109",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 9,
+      "repeated_calls": 4,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 16,
+    "task_id": "20",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 15,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 16,
+    "task_id": "23",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 16,
+    "task_id": "44",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 16,
+    "task_id": "54",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 17,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 16,
+    "task_id": "59",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "too_many_errors",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 5
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 16,
+    "task_id": "69",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 16,
+    "task_id": "8",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 16,
+    "task_id": "83",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 16,
+    "task_id": "88",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 16,
+    "task_id": "91",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 16,
+    "task_id": "92",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 11,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 16,
+    "task_id": "99",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 18,
+      "repeated_calls": 4,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 24,
+    "task_id": "10",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 9,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 24,
+    "task_id": "103",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 4,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 24,
+    "task_id": "109",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 11,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 24,
+    "task_id": "20",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 15,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 24,
+    "task_id": "23",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 4,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 24,
+    "task_id": "44",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 24,
+    "task_id": "54",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 11,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 24,
+    "task_id": "59",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 24,
+    "task_id": "69",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 9,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 24,
+    "task_id": "8",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 24,
+    "task_id": "83",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 11,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 24,
+    "task_id": "88",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 9,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 24,
+    "task_id": "91",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 18,
+      "repeated_calls": 7,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 24,
+    "task_id": "92",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "outcome",
+    "round": 24,
+    "task_id": "99",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 14,
+      "repeated_calls": 8,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 8,
+    "task_id": "10",
+    "change": "gained",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 8,
+    "task_id": "103",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 8,
+    "task_id": "109",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 20,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 8,
+    "task_id": "20",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 15,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 8,
+    "task_id": "23",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 5,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 8,
+    "task_id": "44",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 8,
+    "task_id": "54",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 8,
+    "task_id": "59",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 8,
+    "task_id": "69",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 8,
+    "task_id": "8",
+    "change": "gained",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 8,
+    "task_id": "83",
+    "change": "gained",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 8,
+    "task_id": "88",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 8,
+    "task_id": "91",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 15,
+      "repeated_calls": 8,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 8,
+    "task_id": "92",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 8,
+    "task_id": "99",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 15,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 16,
+    "task_id": "10",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 16,
+    "task_id": "103",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 17,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 16,
+    "task_id": "109",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 20,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 16,
+    "task_id": "20",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 15,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 16,
+    "task_id": "23",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 16,
+    "task_id": "44",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 9,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 16,
+    "task_id": "54",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 16,
+    "task_id": "59",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "too_many_errors",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 5
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 16,
+    "task_id": "69",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 16,
+    "task_id": "8",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 18,
+      "repeated_calls": 7,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 16,
+    "task_id": "83",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 11,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 16,
+    "task_id": "88",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 16,
+    "task_id": "91",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 16,
+    "task_id": "92",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 11,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 16,
+    "task_id": "99",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 18,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 24,
+    "task_id": "10",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 11,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 24,
+    "task_id": "103",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 24,
+    "task_id": "109",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 11,
+      "repeated_calls": 5,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 24,
+    "task_id": "20",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 24,
+    "task_id": "23",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "too_many_errors",
+      "tool_calls": 12,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 5
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 24,
+    "task_id": "44",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 9,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 24,
+    "task_id": "54",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 5,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 24,
+    "task_id": "59",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 24,
+    "task_id": "69",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 24,
+    "task_id": "8",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 24,
+    "task_id": "83",
+    "change": "gained",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 11,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 24,
+    "task_id": "88",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 24,
+    "task_id": "91",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 24,
+    "task_id": "92",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 9,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "consistent",
+    "round": 24,
+    "task_id": "99",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 13,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 8,
+    "task_id": "10",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 8,
+    "task_id": "103",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 12,
+      "repeated_calls": 5,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 8,
+    "task_id": "109",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 10,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 8,
+    "task_id": "20",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 10,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 8,
+    "task_id": "23",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 17,
+      "repeated_calls": 9,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 8,
+    "task_id": "44",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 8,
+    "task_id": "54",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 5,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 8,
+    "task_id": "59",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 19,
+      "repeated_calls": 8,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 8,
+    "task_id": "69",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 19,
+      "repeated_calls": 13,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 8,
+    "task_id": "8",
+    "change": "gained",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 9,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 8,
+    "task_id": "83",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 2,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 8,
+    "task_id": "88",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 8,
+    "task_id": "91",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 8,
+    "task_id": "92",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 8,
+    "task_id": "99",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 15,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 16,
+    "task_id": "10",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 16,
+    "task_id": "103",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 12,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 16,
+    "task_id": "109",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    },
+    "candidate": {
+      "success": false,
+      "termination": "too_many_errors",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 5
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 16,
+    "task_id": "20",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 15,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 16,
+    "task_id": "23",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 16,
+    "task_id": "44",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "too_many_errors",
+      "tool_calls": 9,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 5
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 16,
+    "task_id": "54",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 15,
+      "repeated_calls": 4,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 16,
+    "task_id": "59",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 19,
+      "repeated_calls": 9,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 16,
+    "task_id": "69",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 1,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 16,
+    "task_id": "8",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 9,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 16,
+    "task_id": "83",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 16,
+    "task_id": "88",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 16,
+    "task_id": "91",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 10,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 16,
+    "task_id": "92",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 16,
+    "task_id": "99",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 18,
+      "repeated_calls": 4,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 24,
+    "task_id": "10",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 24,
+    "task_id": "103",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 24,
+    "task_id": "109",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    },
+    "candidate": {
+      "success": false,
+      "termination": "too_many_errors",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 5
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 24,
+    "task_id": "20",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 14,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 24,
+    "task_id": "23",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 24,
+    "task_id": "44",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 24,
+    "task_id": "54",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "too_many_errors",
+      "tool_calls": 9,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 5
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 24,
+    "task_id": "59",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "too_many_errors",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 5
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 24,
+    "task_id": "69",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 24,
+    "task_id": "8",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 9,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 24,
+    "task_id": "83",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 24,
+    "task_id": "88",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 24,
+    "task_id": "91",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 24,
+    "task_id": "92",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "shaped",
+    "round": 24,
+    "task_id": "99",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "too_many_errors",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 5
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 8,
+    "task_id": "10",
+    "change": "gained",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 8,
+    "task_id": "103",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 5,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 8,
+    "task_id": "109",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 8,
+    "task_id": "20",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 8,
+    "task_id": "23",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 8,
+    "task_id": "44",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 8,
+    "task_id": "54",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 8,
+    "task_id": "59",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 8,
+    "task_id": "69",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 5,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 8,
+    "task_id": "8",
+    "change": "gained",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 8,
+    "task_id": "83",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 19,
+      "repeated_calls": 12,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 8,
+    "task_id": "88",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 8,
+    "task_id": "91",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 11,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 8,
+    "task_id": "92",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 8,
+    "task_id": "99",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 16,
+    "task_id": "10",
+    "change": "gained",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 16,
+    "task_id": "103",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 17,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 16,
+    "task_id": "109",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 10,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 16,
+    "task_id": "20",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 1,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 16,
+    "task_id": "23",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 10,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 16,
+    "task_id": "44",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 16,
+    "task_id": "54",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 16,
+    "task_id": "59",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 19,
+      "repeated_calls": 9,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 16,
+    "task_id": "69",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 16,
+    "task_id": "8",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 16,
+    "task_id": "83",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 16,
+    "task_id": "88",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 12,
+      "repeated_calls": 7,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 16,
+    "task_id": "91",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 15,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 16,
+    "task_id": "92",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 4,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 16,
+    "task_id": "99",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 9,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 24,
+    "task_id": "10",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 11,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 24,
+    "task_id": "103",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 15,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 24,
+    "task_id": "109",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 15,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 24,
+    "task_id": "20",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 11,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 24,
+    "task_id": "23",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 24,
+    "task_id": "44",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 11,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 24,
+    "task_id": "54",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 11,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 24,
+    "task_id": "59",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "too_many_errors",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 5
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 24,
+    "task_id": "69",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 24,
+    "task_id": "8",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 10,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 24,
+    "task_id": "83",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 24,
+    "task_id": "88",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 24,
+    "task_id": "91",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 15,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 24,
+    "task_id": "92",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 17,
+      "repeated_calls": 10,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "progress",
+    "round": 24,
+    "task_id": "99",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 8,
+    "task_id": "10",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 11,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 8,
+    "task_id": "103",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 8,
+    "task_id": "109",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 15,
+      "repeated_calls": 9,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 8,
+    "task_id": "20",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 14,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 8,
+    "task_id": "23",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 12,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 8,
+    "task_id": "44",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 11,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 8,
+    "task_id": "54",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 8,
+    "task_id": "59",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 18,
+      "repeated_calls": 7,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 8,
+    "task_id": "69",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 8,
+    "task_id": "8",
+    "change": "gained",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 8,
+    "task_id": "83",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 5,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 8,
+    "task_id": "88",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 8,
+    "task_id": "91",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 18,
+      "repeated_calls": 8,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 8,
+    "task_id": "92",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 10,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 8,
+    "task_id": "99",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 14,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 16,
+    "task_id": "10",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 16,
+    "task_id": "103",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 10,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 16,
+    "task_id": "109",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 20,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 16,
+    "task_id": "20",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 14,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 16,
+    "task_id": "23",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 16,
+    "task_id": "44",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 16,
+    "task_id": "54",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 9,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 16,
+    "task_id": "59",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 16,
+    "task_id": "69",
+    "change": "both_success",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 16,
+    "task_id": "8",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 9,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 16,
+    "task_id": "83",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 16,
+    "task_id": "88",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 11,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 16,
+    "task_id": "91",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 10,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 16,
+    "task_id": "92",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "too_many_errors",
+      "tool_calls": 17,
+      "repeated_calls": 3,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 5
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 16,
+    "task_id": "99",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 15,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 24,
+    "task_id": "10",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 10,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 24,
+    "task_id": "103",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 24,
+    "task_id": "109",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 12,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 3
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 24,
+    "task_id": "20",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 16,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 14,
+      "repeated_calls": 0,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 24,
+    "task_id": "23",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 15,
+      "repeated_calls": 7,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 24,
+    "task_id": "44",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 6,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 1
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 24,
+    "task_id": "54",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 8,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 17,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 1
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 24,
+    "task_id": "59",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "too_many_errors",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 5
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 24,
+    "task_id": "69",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 4,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 7,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 24,
+    "task_id": "8",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 8,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 3
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 24,
+    "task_id": "83",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 14,
+      "repeated_calls": 2,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 4
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 10,
+      "repeated_calls": 1,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 24,
+    "task_id": "88",
+    "change": "lost",
+    "sft": {
+      "success": true,
+      "termination": "user_stop",
+      "tool_calls": 7,
+      "repeated_calls": 1,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 24,
+    "task_id": "91",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "context_length_exceeded",
+      "tool_calls": 13,
+      "repeated_calls": 6,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 10,
+      "repeated_calls": 2,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 24,
+    "task_id": "92",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 5,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    },
+    "candidate": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 13,
+      "repeated_calls": 7,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  },
+  {
+    "arm": "attention",
+    "round": 24,
+    "task_id": "99",
+    "change": "both_fail",
+    "sft": {
+      "success": false,
+      "termination": "max_steps",
+      "tool_calls": 16,
+      "repeated_calls": 3,
+      "budget_exhausted": 1,
+      "invalid_output": 0,
+      "tool_errors": 2
+    },
+    "candidate": {
+      "success": false,
+      "termination": "user_stop",
+      "tool_calls": 10,
+      "repeated_calls": 0,
+      "budget_exhausted": 0,
+      "invalid_output": 0,
+      "tool_errors": 0
+    }
+  }
+]

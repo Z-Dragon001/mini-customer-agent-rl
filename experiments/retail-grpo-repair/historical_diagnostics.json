@@ -1,0 +1,29 @@
+{
+  "sft_eval": {
+    "repeated_calls": 16,
+    "budget_exhausted": 8,
+    "invalid_output": 0,
+    "tool_errors": 25,
+    "episodes": 15,
+    "successes": 2,
+    "episodes_with_repeats": 6
+  },
+  "grpo_eval": {
+    "repeated_calls": 26,
+    "budget_exhausted": 10,
+    "invalid_output": 0,
+    "tool_errors": 21,
+    "episodes": 15,
+    "successes": 1,
+    "episodes_with_repeats": 8
+  },
+  "grpo": {
+    "repeated_calls": 149,
+    "budget_exhausted": 50,
+    "invalid_output": 9,
+    "tool_errors": 148,
+    "episodes": 112,
+    "successes": 21,
+    "episodes_with_repeats": 67
+  }
+}

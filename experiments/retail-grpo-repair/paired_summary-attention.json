@@ -1,0 +1,31 @@
+{
+  "episodes": 80,
+  "sft_success": 13,
+  "attention_success": 18,
+  "gains": 12,
+  "losses": 7,
+  "delta": 0.0625,
+  "cluster_bootstrap_95ci": [
+    -0.05,
+    0.175
+  ],
+  "sft_metrics": {
+    "tasks": 80,
+    "successes": 13,
+    "success_rate": 0.1625,
+    "tool_error_episode_rate": 0.5,
+    "avg_tool_calls": 10.25,
+    "repeated_calls": 199,
+    "budget_exhausted": 44
+  },
+  "attention_metrics": {
+    "tasks": 80,
+    "successes": 18,
+    "success_rate": 0.225,
+    "tool_error_episode_rate": 0.4875,
+    "avg_tool_calls": 9.5875,
+    "repeated_calls": 158,
+    "budget_exhausted": 38
+  },
+  "note": "40 task clusters, two evaluation seeds; one training seed; known benchmark follow-up"
+}

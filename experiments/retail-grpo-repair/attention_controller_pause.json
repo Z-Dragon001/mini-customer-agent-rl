@@ -1,0 +1,10 @@
+{
+  "parent": 3751144,
+  "parent_start_ticks": "478174738",
+  "child": {
+    "pid": 156612,
+    "start_ticks": "478353370"
+  },
+  "reason": "Finish current dev evaluation, freeze original five arms with --dev-only before attention follow-up",
+  "closed": true
+}

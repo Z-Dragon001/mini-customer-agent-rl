@@ -1,0 +1,106 @@
+{
+  "teacher": {
+    "folder": "traces/retail/experiment/20261003T124613Z_teacher_train_713bcceb",
+    "completed_episodes": 118,
+    "successful_episodes": 77,
+    "error_attempts": {
+      "ValueError": 11,
+      "APIConnectionError": 5
+    }
+  },
+  "base": {
+    "folder": "traces/retail/experiment/20261003T133438Z_art_evaluate_56490ed2",
+    "completed_episodes": 55,
+    "successful_episodes": 4,
+    "error_attempts": {}
+  },
+  "sft": {
+    "folder": "traces/retail/experiment/20261003T140311Z_art_sft_710f263c",
+    "completed_episodes": 0,
+    "successful_episodes": 0,
+    "error_attempts": {},
+    "training_batches": 116,
+    "first_loss": 0.5439257025718689,
+    "latest_loss": 0.38177424669265747,
+    "supervised_tokens": 179614.0,
+    "mean_loss": 0.4100997643224124,
+    "finite_metrics": true,
+    "epoch_mean_losses": [
+      0.47149284723503837,
+      0.3487066814097865
+    ]
+  },
+  "sft_eval": {
+    "folder": "traces/retail/experiment/20261003T141132Z_art_evaluate_d3354a9a",
+    "completed_episodes": 55,
+    "successful_episodes": 10,
+    "error_attempts": {
+      "BadRequestError": 3
+    }
+  },
+  "grpo": {
+    "folder": "traces/retail/experiment/20261003T143940Z_art_grpo_d2bf853d",
+    "completed_episodes": 112,
+    "successful_episodes": 21,
+    "error_attempts": {
+      "ValueError": 2
+    },
+    "rollout_groups": 28,
+    "policy_updates": 10,
+    "optimizer_batches": 33,
+    "zero_reward_groups": 17,
+    "all_success_groups": 1,
+    "resumptions": 1
+  },
+  "grpo_eval": {
+    "folder": "traces/retail/experiment/20261003T152848Z_art_evaluate_42b430d0",
+    "completed_episodes": 55,
+    "successful_episodes": 5,
+    "error_attempts": {}
+  },
+  "base_eager_diagnostic": {
+    "folder": "traces/retail/experiment/20261003T130101Z_art_evaluate_e82870a9",
+    "completed_episodes": 18,
+    "successful_episodes": 2,
+    "error_attempts": {
+      "BrokenProcessPool": 45
+    }
+  },
+  "sft_oom_diagnostic": {
+    "folder": "traces/retail/experiment/20261003T134642Z_art_sft_8ed7e451",
+    "completed_episodes": 0,
+    "successful_episodes": 0,
+    "error_attempts": {}
+  },
+  "sft_oom_retry_diagnostic": {
+    "folder": "traces/retail/experiment/20261003T135123Z_art_sft_4d0361c1",
+    "completed_episodes": 0,
+    "successful_episodes": 0,
+    "error_attempts": {}
+  },
+  "grpo_oom_diagnostic": {
+    "folder": "traces/retail/experiment/20261003T142645Z_art_grpo_888927cd",
+    "completed_episodes": 4,
+    "successful_episodes": 2,
+    "error_attempts": {},
+    "rollout_groups": 0,
+    "policy_updates": 0,
+    "optimizer_batches": 0,
+    "zero_reward_groups": 0,
+    "all_success_groups": 0,
+    "resumptions": 0
+  },
+  "grpo_checkpoint_api_diagnostic": {
+    "folder": "traces/retail/experiment/20261003T143354Z_art_grpo_0f7210b7",
+    "completed_episodes": 4,
+    "successful_episodes": 3,
+    "error_attempts": {},
+    "rollout_groups": 0,
+    "policy_updates": 0,
+    "optimizer_batches": 0,
+    "zero_reward_groups": 0,
+    "all_success_groups": 0,
+    "resumptions": 0
+  },
+  "updated_at": "2026-10-03T15:45:40.128631+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "recorded_at": "2026-10-03T15:33:03.824026+00:00",
+  "root_tests": {
+    "command": "uv run --extra retail --locked pytest -q",
+    "passed": 31,
+    "skipped": 1,
+    "skip_reason": "torch is intentionally absent from API-only environment"
+  },
+  "runtime_logprob_test": {
+    "runtime": "runtimes/art/.venv",
+    "test": "tests/test_retail_logprobs.py",
+    "passed": 1,
+    "conditions": "Imported Unsloth and enabled smart gradient checkpointing before test",
+    "coverage": "Logprob, entropy, state/head gradients match dense float64 reference within 1e-10; no-grad path checked"
+  },
+  "actual_gpu_validation": "116 SFT batches and 33 GRPO batches completed; finite loss/gradients recorded"
+}

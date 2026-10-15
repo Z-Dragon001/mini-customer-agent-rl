@@ -1,0 +1,37 @@
+{
+  "sft-dev42": {
+    "dev:SimulatorGroundingError": 1
+  },
+  "kl": {},
+  "outcome": {
+    "dev:SimulatorGroundingError": 1
+  },
+  "consistent": {
+    "dev:SimulatorGroundingError": 1
+  },
+  "shaped": {
+    "dev:Timeout": 1
+  },
+  "progress": {
+    "dev:SimulatorGroundingError": 6
+  },
+  "sft-dev43": {},
+  "kl-dev43": {},
+  "outcome-dev43": {},
+  "consistent-dev43": {},
+  "shaped-dev43": {},
+  "progress-dev43": {
+    "dev:SimulatorGroundingError": 1
+  },
+  "attention": {
+    "train:SimulatorGroundingError": 1,
+    "train:InternalServerError": 12
+  },
+  "attention-dev43": {
+    "dev:SimulatorGroundingError": 1
+  },
+  "sft-test42": {},
+  "attention-test42": {},
+  "sft-test43": {},
+  "attention-test43": {}
+}

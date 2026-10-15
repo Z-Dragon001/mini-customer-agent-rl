@@ -82,5 +82,15 @@ desktop.ini
 /tmp/
 *.tmp
 
+# Reproducibly downloaded upstream code/data and ART model state
+/third_party/
+/configs/retail.json
+/configs/retail.experiment*.json
+/data/tau2/upstream-manifest.json
+/data/tau2/splits.json
+/data/sft/
+/.art/
+/unsloth_compiled_cache/
+
 # NOTE: uv.lock, .python-version, configs/*.example.json,
 # data/tasks/*.jsonl and docs/ are intentionally tracked.

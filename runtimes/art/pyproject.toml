@@ -1,0 +1,20 @@
+[project]
+name = "service-agent-art-runtime"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "mini-customer-agent-rl[retail]",
+  "openpipe-art[backend]==0.5.16",
+  # ART 0.5.16 uses httpx.Timeout; OpenAI 3.x switched to httpx2.
+  "openai==2.54.0",
+]
+
+[tool.uv.sources]
+mini-customer-agent-rl = { path = "../..", editable = true }
+tau2 = { path = "../../third_party/tau2-bench", editable = true }
+torch = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true

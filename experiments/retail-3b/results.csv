@@ -1,0 +1,7 @@
+stage,split,evaluated,expected,successes,success_rate,tool_error_episode_rate,avg_tool_calls,avg_tool_calls_successful,avg_seconds,prompt_tokens,completion_tokens,grounding_rejections,policy_step,source
+base,dev,15,15,1,0.06666666666666667,0.8666666666666667,6.466666666666667,6,43.439793333333334,1733990,21964,0,0,traces/retail/experiment/20261003T133438Z_art_evaluate_56490ed2
+base,test,40,40,3,0.075,0.925,6.75,6.333333333333333,36.7694855,4254638,52095,0,0,traces/retail/experiment/20261003T133438Z_art_evaluate_56490ed2
+sft_eval,dev,15,15,2,0.13333333333333333,0.7333333333333333,10.133333333333333,7,45.42534933333334,1925686,24885,1,1,traces/retail/experiment/20261003T141132Z_art_evaluate_d3354a9a
+sft_eval,test,40,40,8,0.2,0.525,9.75,7,39.59737475,5001639,60122,0,1,traces/retail/experiment/20261003T141132Z_art_evaluate_d3354a9a
+grpo_eval,dev,15,15,1,0.06666666666666667,0.6666666666666666,11.266666666666667,6,51.55231533333333,2188755,29686,0,11,traces/retail/experiment/20261003T152848Z_art_evaluate_42b430d0
+grpo_eval,test,40,40,4,0.1,0.525,11.575,6.25,42.26615725,5499419,64023,5,11,traces/retail/experiment/20261003T152848Z_art_evaluate_42b430d0

@@ -1,0 +1,21 @@
+{
+  "src/mini_customer_agent/retail/__init__.py": "e3069b591989012f1a36d299749b857d32e131e233b801bc2de00739dc207b38",
+  "src/mini_customer_agent/retail/data.py": "c460e5ee66e2e60c96c39b75cc705337b32e5b5ac19c31da68a36b7f6b491b7b",
+  "src/mini_customer_agent/retail/config.py": "aff4ef9d396cb5a0b715b13f31ccbd0784032aa18381d2acfd2798dda96fb2c2",
+  "src/mini_customer_agent/retail/dataset.py": "7d988c8a8f0611c2bc0d14c3fe54f789068dafd01f36d5bf2bf99ce70611ddb5",
+  "src/mini_customer_agent/retail/rollout.py": "939db5cfc07b1e246d16b7a4cf88067ad1e2059f3ee8b2941afb137b47b03425",
+  "src/mini_customer_agent/retail/reporting.py": "38708784af8932c606cc5eade59de91a62e74106e3cc20b657d12a57deb31aa5",
+  "src/mini_customer_agent/retail/cli.py": "2d964b184904595724d6a8fb314ced4ec0f9ff98446bed437d2f55feab7ef34b",
+  "src/mini_customer_agent/retail/training.py": "92e572b2f1fd842752e2ae98f4a0a306244619013658a8b7b75df8014a5dfee1",
+  "src/mini_customer_agent/retail/api.py": "bb4f03d273a4b33a6fd7456ccdda8138f911998f28b8890ff4fd9dcff43d291f",
+  "src/mini_customer_agent/retail/local_model.py": "3ec76d5506e75876d5f10a74ddc0863392c90f3cd873679bf4009266b15ad6d0",
+  "src/mini_customer_agent/retail/grounding.py": "d6aa2f45a2829ae3fa68f9f4417e645f1f0da4bf557f2f6fbaa69faafb4fa090",
+  "src/mini_customer_agent/retail/worker.py": "2e4cddfbd79777f137de84e0ef8e0990187562b06873e5fe0129da004eb5642e",
+  "scripts/retail.sh": "79b478ac708e6858cd51fa3e1d9a9037ac77227d2270c4a0318a2595f8c29092",
+  "uv.lock": "e4786485e02a572a7c0feca2efc8bf499e9da8fa6af33ce1ce63a9968074caf6",
+  "runtimes/art/uv.lock": "8afd5ce6494490bd683b664b3c387edd612355f96df69b3aaa3f18a67b139c54",
+  "pyproject.toml": "26e226fe4b896dec78f958e215108b1763e1dd2eacde6372bed482d2f6a610e4",
+  "runtimes/art/pyproject.toml": "fff8871f28c23080e8c2e515edd59d60c6bbb0d78e4fa2ddbcb738ef33b62c19",
+  "configs/retail.experiment.json": "25507f326ef2c7c6bddcdd877793c03d1697094f2ba617d7f668c18481bacce0",
+  "data/tau2/splits.json": "0b3bf2e1b6096769a2be70549c0c004543be284bb9f5274cb1418fbd9afd8e23"
+}

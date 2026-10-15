@@ -1,0 +1,20 @@
+{
+  "sft-dev42": "traces/retail/grpo-repair/20261013T085720Z_art_evaluate_39b772c5",
+  "kl": "traces/retail/grpo-repair/20261013T090856Z_art_grpo_644695c4",
+  "outcome": "traces/retail/grpo-repair/20261013T095748Z_art_grpo_a83a89bf",
+  "consistent": "traces/retail/grpo-repair/20261013T104407Z_art_grpo_e695b6fe",
+  "shaped": "traces/retail/grpo-repair/20261013T113740Z_art_grpo_fc4d2afb",
+  "progress": "traces/retail/grpo-repair/20261013T122836Z_art_grpo_e4228c54",
+  "sft-dev43": "traces/retail/grpo-repair/20261013T134118Z_art_evaluate_937bcecf",
+  "kl-dev43": "traces/retail/grpo-repair/20261013T134714Z_art_evaluate_379efe03",
+  "outcome-dev43": "traces/retail/grpo-repair/20261013T135329Z_art_evaluate_64c3c75f",
+  "consistent-dev43": "traces/retail/grpo-repair/20261013T140525Z_art_evaluate_d8b8f732",
+  "shaped-dev43": "traces/retail/grpo-repair/20261013T144632Z_art_evaluate_0fb71355",
+  "progress-dev43": "traces/retail/grpo-repair/20261013T150255Z_art_evaluate_672c3245",
+  "attention": "traces/retail/grpo-repair/20261013T152036Z_art_grpo_16010018",
+  "attention-dev43": "traces/retail/grpo-repair/20261013T170437Z_art_evaluate_59669bce",
+  "sft-test42": "traces/retail/grpo-repair/20261013T171248Z_art_evaluate_4ca449f0",
+  "attention-test42": "traces/retail/grpo-repair/20261013T172403Z_art_evaluate_ac609bdd",
+  "sft-test43": "traces/retail/grpo-repair/20261013T173733Z_art_evaluate_512c62ea",
+  "attention-test43": "traces/retail/grpo-repair/20261013T174950Z_art_evaluate_5218e07a"
+}

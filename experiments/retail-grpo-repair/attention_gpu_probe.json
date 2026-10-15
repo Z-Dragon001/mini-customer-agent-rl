@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "random_tiny_model": true,
+  "gpu": "NVIDIA GeForce RTX 4090 D",
+  "results": {
+    "reference_no_grad": {
+      "uncorrected_max_abs_error": 4.1875,
+      "corrected_max_abs_error": 0.0224609375
+    },
+    "training": {
+      "uncorrected_max_abs_error": 4.1875,
+      "corrected_max_abs_error": 0.0224609375,
+      "finite_nonzero_adapter_gradients": true
+    }
+  },
+  "limit": "Kernel/forward/backward correctness test; not a trained task-performance result"
+}

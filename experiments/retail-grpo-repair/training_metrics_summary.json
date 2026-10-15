@@ -1,0 +1,179 @@
+{
+  "arms": {
+    "kl": {
+      "loss": {
+        "batches": 33,
+        "min": -2.8285,
+        "median": 0.5135,
+        "max": 1.786
+      },
+      "grad_norm": {
+        "batches": 33,
+        "min": 0.1333141177892685,
+        "median": 0.4268699884414673,
+        "max": 1.253469467163086
+      },
+      "kl_div": {
+        "batches": 33,
+        "min": 0.00020722650515381247,
+        "median": 0.0009314683265984058,
+        "max": 0.0021779420785605907
+      }
+    },
+    "outcome": {
+      "loss": {
+        "batches": 30,
+        "min": -2.5886,
+        "median": 0.4704,
+        "max": 1.6675
+      },
+      "grad_norm": {
+        "batches": 30,
+        "min": 0.07864069193601608,
+        "median": 0.5004565417766571,
+        "max": 1.6334644556045532
+      },
+      "old_policy_logprob_mae": {
+        "batches": 30,
+        "min": 0.041712962090969086,
+        "median": 0.09324998408555984,
+        "max": 0.16094772517681122
+      },
+      "old_policy_ratio_outside_clip": {
+        "batches": 30,
+        "min": 0.05359223484992981,
+        "median": 0.1380695402622223,
+        "max": 0.24633748829364777
+      }
+    },
+    "consistent": {
+      "loss": {
+        "batches": 34,
+        "min": -4.5371,
+        "median": 0.58285,
+        "max": 2.4113
+      },
+      "grad_norm": {
+        "batches": 34,
+        "min": 0.17286910116672516,
+        "median": 0.5484306216239929,
+        "max": 3.095799446105957
+      },
+      "kl_div": {
+        "batches": 34,
+        "min": 0.0001115652485168539,
+        "median": 0.0004265514144208282,
+        "max": 0.0033563929609954357
+      },
+      "old_policy_logprob_mae": {
+        "batches": 34,
+        "min": 0.011568919755518436,
+        "median": 0.030941863544285297,
+        "max": 1.1950078010559082
+      },
+      "old_policy_ratio_outside_clip": {
+        "batches": 34,
+        "min": 0.011459589935839176,
+        "median": 0.03597245737910271,
+        "max": 0.3802816867828369
+      }
+    },
+    "shaped": {
+      "loss": {
+        "batches": 28,
+        "min": -2.454,
+        "median": 0.58195,
+        "max": 1.2261
+      },
+      "grad_norm": {
+        "batches": 28,
+        "min": 0.18025557696819305,
+        "median": 0.4213573932647705,
+        "max": 0.8861161470413208
+      },
+      "kl_div": {
+        "batches": 28,
+        "min": 0.00033273929147981107,
+        "median": 0.0010714075178839266,
+        "max": 0.002059994265437126
+      },
+      "old_policy_logprob_mae": {
+        "batches": 28,
+        "min": 0.037786196917295456,
+        "median": 0.11147930473089218,
+        "max": 0.16946732997894287
+      },
+      "old_policy_ratio_outside_clip": {
+        "batches": 28,
+        "min": 0.0399305559694767,
+        "median": 0.15133130550384521,
+        "max": 0.1946902573108673
+      }
+    },
+    "progress": {
+      "loss": {
+        "batches": 78,
+        "min": -4.9757,
+        "median": 0.3598,
+        "max": 4.179
+      },
+      "grad_norm": {
+        "batches": 78,
+        "min": 0.03975918889045715,
+        "median": 0.3911447376012802,
+        "max": 4.37491512298584
+      },
+      "kl_div": {
+        "batches": 78,
+        "min": 6.891631346661597e-05,
+        "median": 0.00048120484279934317,
+        "max": 0.006692634895443916
+      },
+      "old_policy_logprob_mae": {
+        "batches": 78,
+        "min": 0.015184123069047928,
+        "median": 0.02967210579663515,
+        "max": 2.054645538330078
+      },
+      "old_policy_ratio_outside_clip": {
+        "batches": 78,
+        "min": 0.013245032168924809,
+        "median": 0.03232378326356411,
+        "max": 0.6098484992980957
+      }
+    },
+    "attention": {
+      "loss": {
+        "batches": 76,
+        "min": -3.896,
+        "median": 0.24335,
+        "max": 2.9624
+      },
+      "grad_norm": {
+        "batches": 76,
+        "min": 0.012669582851231098,
+        "median": 0.42043568193912506,
+        "max": 3.2958309650421143
+      },
+      "kl_div": {
+        "batches": 76,
+        "min": 6.996638694545254e-05,
+        "median": 0.0004883643559878692,
+        "max": 0.0015695514157414436
+      },
+      "old_policy_logprob_mae": {
+        "batches": 76,
+        "min": 0.010189803317189217,
+        "median": 0.02774009946733713,
+        "max": 0.05228808894753456
+      },
+      "old_policy_ratio_outside_clip": {
+        "batches": 76,
+        "min": 0.009431266225874424,
+        "median": 0.03130706585943699,
+        "max": 0.06621621549129486
+      }
+    }
+  },
+  "note": "Descriptive distributions over actual optimizer batches, not matched-input causal comparisons; later batches may follow prior optimizer updates. See numerical_comparison.json for the fixed-input replay."
+}

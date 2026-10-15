@@ -1,0 +1,14 @@
+{
+  "old_policy_logprob_mae": {
+    "original": 0.10792122036218643,
+    "corrected": 0.044421471655368805
+  },
+  "old_policy_logprob_bias": {
+    "original": -0.055621035397052765,
+    "corrected": -0.012495363131165504
+  },
+  "old_policy_ratio_outside_clip": {
+    "original": 0.13929961621761322,
+    "corrected": 0.056031130254268646
+  }
+}

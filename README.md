@@ -1,163 +1,89 @@
-# Mini Customer Agent RL
+# ServiceAgent-RL
 
-一个刻意做小的客服工具 Agent 项目：只保留查订单、改地址、申请退款、转人工四个工具，先跑通评测与 trace，再根据高频错误选择 SFT 或 GRPO。基础 Harness 只依赖 Python 标准库。
+**单卡训练的电商客服 Agent：LoRA SFT + GRPO 强化学习。**
 
-## 这个项目解决什么
+电商客服中的退换货、订单取消和地址修改，通常需要跨多轮对话补充信息、核验订单状态、确认用户意愿，再按业务规则调用工具。一次参数错误或步骤遗漏，都可能影响最终处理结果。因此，客服 Agent 需要同时掌握业务流程、工具使用和多步决策。
 
-同一套环境和测试集可以评测：
+**SFT 通过优质示范建立业务处理与工具调用的基础；强化学习以实际任务结果和业务进度为反馈，进一步优化操作顺序、错误恢复及任务完成策略。** 本项目围绕这两个阶段，探索从示范学习到环境交互的客服 Agent 训练方法。
 
-1. 未训练的小模型；
-2. SFT/GRPO 后的小模型；
-3. 通用强模型。
+基于 **Qwen2.5-3B-Instruct** 和 **tau-bench retail**，构建从教师示范采集、监督微调到强化学习与任务评测的完整流程。Agent 在多轮对话中理解需求、确认操作，调用工具完成订单查询、地址修改、取消、退货及换货等业务。
 
-每次运行保存完整消息、工具参数、工具结果、状态快照和失败标签，并汇总：任务成功率、非法操作率、平均工具调用次数、单任务成本、平均/P50/P95 完成耗时。
+## 项目亮点
 
-失败被归为五类：
+- **SFT + RL 完整训练链路**：通过教师示范学习工具调用，再通过环境交互优化任务策略。
+- **业务状态驱动的奖励**：结合任务成功、业务进度和有界过程惩罚，为多轮决策提供学习信号。
+- **单卡参数高效训练**：在一张 RTX 4090 D 24GB 上完成 3B 模型的 LoRA 微调与 GRPO，支持 16K 上下文。
+- **完整工具执行与可追溯评测**：接入官方 16 个工具，保存对话、工具反馈、奖励和检查点记录，支持逐任务配对比较。
 
-| 标签 | 含义 |
-|---|---|
-| `tool_selection_error` | 选错工具，或不必要地转人工 |
-| `parameter_error` | 参数缺失、格式错误、订单号错误或违反操作条件 |
-| `unhandled_exception` | 模型/工具异常，或重复同一失败调用而未恢复 |
-| `premature_termination` | 目标未完成就结束或达到步数上限 |
-| `insufficient_information` | 未取得确认等必要信息就执行 |
+## 最终方案
 
-## 目录
+```mermaid
+flowchart LR
+    A[教师与模拟用户交互] --> B[示范筛选]
+    B --> C[LoRA SFT]
+    C --> D[GRPO 环境交互训练]
+    D --> E[开发集选择检查点]
+    E --> F[固定测试集评测]
+```
+
+### SFT：学习客服工具调用
+
+教师模型在官方零售环境中生成多轮示范，经成功过滤、格式校验、去重、长度检查和抽样检查，构建 `messages + tools` 训练数据。最终使用 **58 条示范、覆盖 35 个训练任务**，通过 **4-bit 加载 + LoRA（rank 16）** 完成 **2 epochs** 监督微调。
+
+### 强化学习：优化多轮任务策略
+
+从 SFT 检查点出发，对同一任务采样 **4 条轨迹**，使用 **GRPO** 进行组内相对优势优化，并以冻结 SFT 模型的 **KL 约束**限制策略偏移。
 
 ```text
-data/tasks/                 固定的 dev/test 任务与单轮 RL 训练任务
-configs/                    三类模型的 OpenAI-compatible 配置示例
-src/mini_customer_agent/    环境、Harness、模型客户端、评测、错误归因
-src/.../training/           SFT 数据构建、LoRA SFT、可选 GRPO
-tests/                      无外部依赖的单元与端到端测试
-docs/experiment_plan.md     推荐实验顺序和判因方式
+训练奖励 = 官方任务成功 + 业务进度奖励 - 有界过程惩罚
 ```
 
-## 1. 先验证 Harness
+业务进度奖励基于训练轨迹的目标操作覆盖及数据库状态；过程惩罚约束重复调用、工具错误和预算耗尽，奖励设计保持完整成功优先。训练采用 **BF16 基座、FP32 概率归一化和打包轨迹注意力隔离**，支持优化器与随机状态恢复。最终检查点由开发集选择，测试使用官方任务成功判定。
 
-PowerShell：
+## 核心结果
 
-```powershell
-cd S:\Workfile\VScode\mini-customer-agent-rl
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -e .
-python -m unittest discover -s tests -v
-python -m mini_customer_agent evaluate --provider scripted
-```
+在相同 **40 个测试任务 × 2 个评测种子**上进行配对复测，每个模型共执行 80 次任务：
 
-`scripted_oracle` 只是验证环境是否可完成的确定性策略，不是实验 baseline。输出会写入 `traces/<时间>_scripted_oracle/`。
+| 指标 | SFT | SFT + GRPO |
+|---|---:|---:|
+| 任务成功率 | 16.25%（13/80） | **22.50%（18/80）** |
+| 平均工具调用次数 | 10.250 | **9.588** |
+| 重复调用总数 | 199 | **158** |
+| 预算耗尽次数 | 44 | **38** |
 
-## 2. 接入一个真实模型
+本轮观察到成功率提高 **6.25 个百分点**。本轮仅一个训练种子，两次评测复用相同任务；按任务聚类的 95% bootstrap 差值区间为 **[-5.00, +17.50] 个百分点**，尚不足以证明稳定提升。完整评测条件与逐任务结果见[结果报告](experiments/retail-grpo-repair/attention_report.md)。
 
-Harness 接受任意 OpenAI-compatible Chat Completions 服务，包括本地 vLLM/SGLang 和外部模型 API：
+## 快速开始
 
-```powershell
-pip install -e ".[api]"
-$env:LOCAL_LLM_API_KEY="EMPTY"
-python -m mini_customer_agent evaluate `
-  --provider openai `
-  --name small_base `
-  --model Qwen/Qwen2.5-7B-Instruct `
-  --base-url http://127.0.0.1:8000/v1
-```
-
-价格参数以“美元/百万 token”为单位；本地模型保持 0 即可：
-
-```powershell
-python -m mini_customer_agent evaluate `
-  --provider openai --name strong_general --model YOUR_MODEL `
-  --base-url https://YOUR_ENDPOINT/v1 `
-  --api-key-env STRONG_MODEL_API_KEY `
-  --input-price 0.50 --output-price 1.50
-```
-
-不要把 API Key 写进 JSON。`configs/models.example.json` 只保存环境变量名。
-
-## 3. 同测试集比较三个模型
-
-复制并修改配置：
-
-```powershell
-Copy-Item configs\models.example.json configs\models.json
-python -m mini_customer_agent compare --config configs\models.json
-```
-
-三个 endpoint 分别指向未训练小模型、加载 LoRA 后的小模型和通用强模型。结果写入 `traces/comparison.json`，每个模型还有独立的 `traces.jsonl` 和 `metrics.json`。
-
-## 4. 看错误，再决定是否训练
-
-不要先设定“必须做 RL”。建议先为每个模型采样 3 次以上，按 `primary_failure` 计数并人工抽查 trace。如果反复出现的是：
-
-- 参数和值映射错误：先用纠正后的成功轨迹做 SFT；
-- 明知工具结果仍无法恢复、或长链决策不稳定：再考虑环境 RL；
-- 主要是知识缺失或工具返回信息不足：先改工具/数据，不应让训练背锅；
-- 强模型也失败：优先检查任务、政策和 verifier。
-
-本项目推荐第一个训练目标选“参数填错”，因为标签清晰、可用少量数据验证、也容易解释能力增益。
-
-## 5. 构造 SFT 数据并训练
-
-先从强模型或人工修正后的成功 trace 构造 conversational tool-calling 数据：
-
-```powershell
-python -m mini_customer_agent build-sft `
-  --traces traces\RUN_NAME\traces.jsonl `
-  --output data\sft\train.jsonl
-pip install -e ".[train]"
-```
-
-Linux 四卡训练示例：
+需要 **Python 3.12、uv**；训练另需 NVIDIA GPU。先下载固定版本的上游环境，再安装本地路径依赖：
 
 ```bash
-torchrun --standalone --nproc_per_node=4 \
-  -m mini_customer_agent.training.train_sft \
-  --model Qwen/Qwen2.5-7B-Instruct \
-  --dataset data/sft/train.jsonl \
-  --output-dir outputs/customer-agent-sft
+PYTHONPATH=src python -m mini_customer_agent.retail.data
+uv sync --extra retail --extra dev --locked
+uv run --extra retail --locked retail-agent inspect
+
+cp configs/retail.example.json configs/retail.json
+cp .env.example .env
 ```
 
-这是 LoRA SFT，默认 batch size 很保守，适合先用几十条样本做 smoke test，再扩到数百条人工验收轨迹。`--assistant-only-loss` 只有在模型 chat template 支持 assistant token mask 时再开启。
-
-## 6. 可选：在真实工具状态上做 GRPO
-
-`rl_train.jsonl` 中都是单轮即可执行的任务，因为训练环境不会伪造用户后续回复。奖励直接来自执行后的环境状态：
-
-- 正确达到任务目标：`1.0`，多余工具调用每次扣 `0.05`；
-- 非法操作：`-1.0`；
-- 普通工具失败：`-0.5`；
-- 未完成且未违规：`0.0`。
+在配置中填写教师、模拟用户和裁判的模型及地址，在 `.env` 中填写密钥；`art` 配置管理本地学生模型。GPU 训练环境单独安装：
 
 ```bash
-torchrun --standalone --nproc_per_node=4 \
-  -m mini_customer_agent.training.train_grpo \
-  --model outputs/customer-agent-sft \
-  --tasks data/tasks/rl_train.jsonl \
-  --output-dir outputs/customer-agent-grpo \
-  --max-steps 200
+uv sync --project runtimes/art --locked
+uv run --project runtimes/art --locked retail-agent prepare-inference
 ```
 
-GRPO 工具环境依赖当前 TRL 的 `environment_factory` 能力和 `transformers>=5.2.0`，属于可选实验路径。先锁定可工作的依赖版本并运行 5～10 step smoke test；不要在 baseline 尚未稳定时直接长训。实现依据是 [TRL Agent Training 官方文档](https://huggingface.co/docs/trl/grpo_trainer)；SFT 数据格式依据 [TRL SFTTrainer 官方文档](https://huggingface.co/docs/trl/sft_trainer)。
+数据沿用固定版本官方任务，划分为 **train 59 / dev 15 / test 40**。完整采集、训练和评测命令见[详细指南](README.detailed-2026-10-15.md#快速开始)；通用示例配置用于跑通流程，最终训练设置见[实验协议](experiments/retail-grpo-repair/protocol.md)。
 
-## 环境规则
+## 代码与文档
 
-- 会话预先绑定 `customer_id`，无额外登录工具；任何跨客户访问都会被拒绝并计作非法操作。
-- 改地址仅允许 `pending` 订单。
-- 退款仅允许 `delivered`、`refundable=true` 且未申请过退款的订单。
-- 改地址和退款必须看到用户明确确认。
-- 成功由最终状态 verifier 判定，不要求模型复现唯一标准工具链。
+| 入口 | 内容 |
+|---|---|
+| [核心代码](src/mini_customer_agent/retail/) | 数据构建、多轮交互、SFT / GRPO、奖励与评测 |
+| [配置模板](configs/retail.example.json) | API 角色及本地模型配置 |
+| [架构说明](docs/retail_architecture.md) | 模型角色、工具环境与数据流 |
+| [结果报告](experiments/retail-grpo-repair/attention_report.md) | 最终方案的配对测试结果 |
 
-设计思路参考了 [τ³-bench / tau2-bench](https://github.com/sierra-research/tau2-bench) 的状态化客服环境，但没有引入其完整任务规模或依赖。
 
-## SSL `UNEXPECTED_EOF_WHILE_READING`
 
-若接外部 API 时遇到该错误，先按顺序排查：
-
-1. 本地 vLLM/SGLang 通常是 `http://127.0.0.1:端口/v1`，不要误写成 `https://`；
-2. 用同一环境执行 `python -c "import ssl; print(ssl.OPENSSL_VERSION)"`；
-3. 检查代理是否对 HTTPS 做了中间人解密，并更新系统 CA / `certifi`；
-4. 确认 Debian 主机时间正确、域名与 SNI 一致；
-5. 用 `curl -v https://目标域名/v1/models` 区分是 Python 客户端还是代理/服务端提前断开。
-
-客户端已设置 60 秒超时和 2 次重试，但 TLS 握手阶段 EOF 通常需要修复 URL、代理或证书链，单纯增加重试次数不是根治。
-
+基于 [tau2-bench](https://github.com/sierra-research/tau2-bench)、Qwen、OpenPipe ART、Unsloth 和 vLLM 构建；上游源码与数据保留对应许可证。

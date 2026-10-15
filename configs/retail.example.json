@@ -1,0 +1,48 @@
+{
+  "domain": "retail",
+  "data_dir": "third_party/tau2-bench/data",
+  "splits": "data/tau2/splits.json",
+  "output_dir": "traces/retail",
+  "seed": 42,
+  "max_steps": 40,
+  "max_errors": 5,
+  "agent": {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "base_url": "http://127.0.0.1:8000/v1",
+    "api_key_env": "LOCAL_LLM_API_KEY",
+    "temperature": 0.0,
+    "max_tokens": 512
+  },
+  "teacher": {
+    "model": "REPLACE_WITH_TEACHER_MODEL",
+    "base_url_env": "TEACHER_BASE_URL",
+    "api_key_env": "TEACHER_API_KEY",
+    "temperature": 0.2,
+    "max_tokens": 512
+  },
+  "user": {
+    "model": "openai/REPLACE_WITH_USER_MODEL",
+    "base_url_env": "USER_BASE_URL",
+    "api_key_env": "USER_API_KEY",
+    "temperature": 0.0,
+    "max_tokens": 512
+  },
+  "art": {
+    "project": "service-agent-retail",
+    "name": "qwen25-3b-sft-grpo",
+    "base_model": "Qwen/Qwen2.5-3B-Instruct",
+    "path": ".art",
+    "max_seq_length": 8192,
+    "gpu_memory_utilization": 0.55,
+    "learning_rate": 0.00001,
+    "rollouts_per_task": 2,
+    "temperature": 0.7
+  },
+  "judge": {
+    "model": "openai/gpt-4.1-2025-04-14",
+    "base_url_env": "JUDGE_BASE_URL",
+    "api_key_env": "JUDGE_API_KEY",
+    "temperature": 0.0,
+    "max_tokens": 2048
+  }
+}

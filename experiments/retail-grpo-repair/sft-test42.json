@@ -1,0 +1,73 @@
+{
+  "domain": "retail",
+  "data_dir": "third_party/tau2-bench/data",
+  "splits": "data/tau2/splits.json",
+  "output_dir": "traces/retail/grpo-repair",
+  "seed": 42,
+  "max_steps": 40,
+  "max_errors": 5,
+  "agent": {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "base_url": "http://127.0.0.1:8000/v1",
+    "api_key_env": "LOCAL_LLM_API_KEY",
+    "temperature": 0,
+    "max_tokens": 512
+  },
+  "teacher": {
+    "model": "qwen3.7-flash",
+    "base_url_env": "TEACHER_BASE_URL",
+    "api_key_env": "TEACHER_API_KEY",
+    "temperature": 0.2,
+    "max_tokens": 2048,
+    "base_url": "https://maas.qianwenaiapi.com/compatible-mode/v1",
+    "base_url_env_fallback": "DASHSCOPE_BASE_URL",
+    "api_key_env_fallback": "DASHSCOPE_API_KEY",
+    "extra_body": {
+      "enable_thinking": false
+    },
+    "stream": true
+  },
+  "user": {
+    "model": "openai/qwen3.7-flash",
+    "base_url_env": "USER_BASE_URL",
+    "api_key_env": "USER_API_KEY",
+    "temperature": 0,
+    "max_tokens": 1024,
+    "base_url": "https://maas.qianwenaiapi.com/compatible-mode/v1",
+    "base_url_env_fallback": "DASHSCOPE_BASE_URL",
+    "api_key_env_fallback": "DASHSCOPE_API_KEY",
+    "extra_body": {
+      "enable_thinking": false
+    }
+  },
+  "art": {
+    "project": "service-agent-retail",
+    "name": "qwen25-3b-repair-sft",
+    "base_model": "/home/zxl/VScode/mini-customer-agent-rl/.cache/local-models/Qwen2.5-3B-Instruct/48bcea35785d0b0e",
+    "path": ".art",
+    "max_seq_length": 16384,
+    "gpu_memory_utilization": 0.55,
+    "learning_rate": 5e-06,
+    "rollouts_per_task": 4,
+    "temperature": 0.7,
+    "sft_learning_rate": 5e-05,
+    "enforce_eager": false
+  },
+  "judge": {
+    "model": "openai/qwen3.7-flash",
+    "base_url_env": "JUDGE_BASE_URL",
+    "api_key_env": "JUDGE_API_KEY",
+    "temperature": 0,
+    "max_tokens": 4096,
+    "base_url": "https://maas.qianwenaiapi.com/compatible-mode/v1",
+    "base_url_env_fallback": "DASHSCOPE_BASE_URL",
+    "api_key_env_fallback": "DASHSCOPE_API_KEY",
+    "extra_body": {
+      "enable_thinking": false,
+      "response_format": {
+        "type": "json_object"
+      }
+    }
+  },
+  "user_grounding": "visible-identifiers-v1"
+}

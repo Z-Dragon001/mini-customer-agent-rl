@@ -1,0 +1,105 @@
+{
+  "accepted": 58,
+  "failed": 73,
+  "invalid": 0,
+  "duplicate": 0,
+  "source_sha256": "143b144034c77bb83ed82d3c3e7a0cd7e780e0d6d2519be472f9e5ef5f9063ee",
+  "data_sha256": "879d45d24834faa80821cbe1dcd6777d900c4ddefe69733c461fa37901412ab9",
+  "tasks_sha256": "8e03ebce7901bd6218e7a7dc3105faa9324091a68058f7fe61c65262868812e8",
+  "tau_revision": "5bfa7e37b36656b37dc6d022156be6563c1007f3",
+  "note": "Automatic task/format/error filtering does not certify every policy requirement. Audit a sample.",
+  "accepted_before_length_filter": 61,
+  "source_attempts": 134,
+  "completed_task_seed_pairs": 118,
+  "successful_task_seed_pairs": 77,
+  "infrastructure_attempts": {
+    "ValueError": 11,
+    "APIConnectionError": 5
+  },
+  "candidate_sha256": "ee178fe1bee530272a2ce754acf0116baee52d8623f767b011ac8e8be4748cfc",
+  "max_seq_length": 16384,
+  "excluded_for_length": [
+    {
+      "candidate_row": 10,
+      "task_id": "98",
+      "tokens": 16403
+    }
+  ],
+  "pre_audit_data_sha256": "05d9324a04c69748ac10a36071a326e53b94cca2fe12a6376b7e8be3b2a5a363",
+  "codex_audit": [
+    {
+      "source_row": 8,
+      "task_id": "2",
+      "messages_sha256": "221486e86d2a6499f89c09efc1a6df3e75084b390e60caf339cf55c95a1ced06",
+      "reviewer": "Codex",
+      "decision": "retain",
+      "reason": "Inspected write-tool arguments and preceding explicit user confirmation; no issue found in this check"
+    },
+    {
+      "source_row": 13,
+      "task_id": "48",
+      "messages_sha256": "d158f2487fa5b048fccf1ecd8c0fc34d3f36b765ecc46edc7fff1da8d9222e71",
+      "reviewer": "Codex",
+      "decision": "retain",
+      "reason": "Inspected write-tool arguments and preceding explicit user confirmation; no issue found in this check"
+    },
+    {
+      "source_row": 16,
+      "task_id": "75",
+      "messages_sha256": "006d6ee16de797fa15aeda20f873759cd2cb1b578fde0d3ebbab469ba8c72e09",
+      "reviewer": "Codex",
+      "decision": "retain",
+      "reason": "Inspected write-tool arguments and preceding explicit user confirmation; no issue found in this check"
+    },
+    {
+      "source_row": 17,
+      "task_id": "11",
+      "messages_sha256": "2e7f91cf91054ecf80df6cc5ccec51fb5d7c6d0341ecd2ccef8b36a9074c951c",
+      "reviewer": "Codex",
+      "decision": "retain",
+      "reason": "Inspected write-tool arguments and preceding explicit user confirmation; no issue found in this check"
+    },
+    {
+      "source_row": 18,
+      "task_id": "50",
+      "messages_sha256": "5ca49edc39db841290be8bb0828dfb1de53a8832a1788f9ce163379748dafcd2",
+      "reviewer": "Codex",
+      "decision": "exclude",
+      "reason": "Promises to help place a new order although the environment has no order-creation tool"
+    },
+    {
+      "source_row": 23,
+      "task_id": "1",
+      "messages_sha256": "495b55127fa05464af5ef3030d2df99f82c0b62a486014cb0589b25d6dc12d4a",
+      "reviewer": "Codex",
+      "decision": "retain",
+      "reason": "Inspected write-tool arguments and preceding explicit user confirmation; no issue found in this check"
+    },
+    {
+      "source_row": 24,
+      "task_id": "58",
+      "messages_sha256": "5d160cf72c991be8d0cf12e0c3388a6223ffc08c8868161e7a9d9838e5bbda44",
+      "reviewer": "Codex",
+      "decision": "retain",
+      "reason": "Inspected write-tool arguments and preceding explicit user confirmation; no issue found in this check"
+    },
+    {
+      "source_row": 25,
+      "task_id": "113",
+      "messages_sha256": "2733455f6bdc9c615819fd9accfb5819b0031bdf220fe286b1e42615d59f85c4",
+      "reviewer": "Codex",
+      "decision": "retain",
+      "reason": "Inspected write-tool arguments and preceding explicit user confirmation; no issue found in this check"
+    },
+    {
+      "source_row": 47,
+      "task_id": "50",
+      "messages_sha256": "bc57c53e9ac822b9b9aa7d20d0d1f87fb4952af240c85b48ae97c2d1bd9d453e",
+      "reviewer": "Codex",
+      "decision": "exclude",
+      "reason": "Promises to help place a new order although the environment has no order-creation tool"
+    }
+  ],
+  "audit_excluded": 2,
+  "audit_scope": "Sample inspection by Codex, not human or exhaustive compliance review"
+}

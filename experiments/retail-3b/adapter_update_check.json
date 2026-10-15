@@ -1,0 +1,12 @@
+{
+  "0000": {
+    "tensor_count": 504,
+    "lora_b_nonzero_values": 0,
+    "lora_b_total_values": 16515072
+  },
+  "0001": {
+    "tensor_count": 504,
+    "lora_b_nonzero_values": 16515072,
+    "lora_b_total_values": 16515072
+  }
+}

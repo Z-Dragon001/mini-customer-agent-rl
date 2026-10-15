@@ -1,0 +1,3834 @@
+{
+  "scope": "training",
+  "passed": true,
+  "checks": [
+    {
+      "check": "disjoint train/dev/test tasks",
+      "passed": true
+    },
+    {
+      "check": "curriculum contains training tasks only",
+      "passed": true
+    },
+    {
+      "check": "outcome:24 contiguous groups",
+      "passed": true
+    },
+    {
+      "check": "outcome:96 selected trajectories",
+      "passed": true
+    },
+    {
+      "check": "outcome:train-only tasks",
+      "passed": true
+    },
+    {
+      "check": "outcome:official score agrees with success",
+      "passed": true
+    },
+    {
+      "check": "outcome:group0:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group0:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group0:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group0:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group0:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group1:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group1:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group1:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group1:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group1:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group2:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group2:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group2:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group2:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group2:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group3:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group3:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group3:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group3:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group3:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group4:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group4:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group4:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group4:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group4:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group5:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group5:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group5:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group5:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group5:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group6:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group6:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group6:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group6:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group6:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group7:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group7:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group7:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group7:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group7:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group8:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group8:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group8:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group8:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group8:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group9:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group9:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group9:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group9:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group9:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group10:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group10:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group10:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group10:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group10:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group11:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group11:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group11:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group11:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group11:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group12:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group12:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group12:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group12:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group12:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group13:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group13:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group13:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group13:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group13:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group14:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group14:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group14:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group14:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group14:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group15:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group15:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group15:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group15:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group15:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group16:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group16:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group16:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group16:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group16:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group17:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group17:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group17:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group17:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group17:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group18:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group18:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group18:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group18:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group18:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group19:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group19:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group19:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group19:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group19:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group20:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group20:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group20:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group20:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group20:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group21:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group21:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group21:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group21:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group21:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group22:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group22:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group22:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group22:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group22:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:group23:curriculum",
+      "passed": true
+    },
+    {
+      "check": "outcome:group23:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:group23:reward",
+      "passed": true
+    },
+    {
+      "check": "outcome:group23:update",
+      "passed": true
+    },
+    {
+      "check": "outcome:group23:seed",
+      "passed": true
+    },
+    {
+      "check": "outcome:final checkpoint step",
+      "passed": true
+    },
+    {
+      "check": "outcome:same SFT starting weights",
+      "passed": true
+    },
+    {
+      "check": "outcome:optimizer2",
+      "passed": true
+    },
+    {
+      "check": "outcome:optimizer3",
+      "passed": true
+    },
+    {
+      "check": "outcome:optimizer4",
+      "passed": true
+    },
+    {
+      "check": "outcome:optimizer5",
+      "passed": true
+    },
+    {
+      "check": "outcome:optimizer6",
+      "passed": true
+    },
+    {
+      "check": "outcome:optimizer7",
+      "passed": true
+    },
+    {
+      "check": "outcome:optimizer8",
+      "passed": true
+    },
+    {
+      "check": "outcome:optimizer9",
+      "passed": true
+    },
+    {
+      "check": "outcome:dev8",
+      "passed": true
+    },
+    {
+      "check": "outcome:dev16",
+      "passed": true
+    },
+    {
+      "check": "outcome:dev24",
+      "passed": true
+    },
+    {
+      "check": "outcome:finite updates",
+      "passed": true
+    },
+    {
+      "check": "kl:24 contiguous groups",
+      "passed": true
+    },
+    {
+      "check": "kl:96 selected trajectories",
+      "passed": true
+    },
+    {
+      "check": "kl:train-only tasks",
+      "passed": true
+    },
+    {
+      "check": "kl:official score agrees with success",
+      "passed": true
+    },
+    {
+      "check": "kl:group0:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group0:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group0:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group0:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group0:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group1:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group1:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group1:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group1:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group1:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group2:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group2:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group2:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group2:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group2:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group3:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group3:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group3:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group3:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group3:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group4:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group4:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group4:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group4:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group4:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group5:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group5:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group5:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group5:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group5:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group6:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group6:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group6:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group6:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group6:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group7:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group7:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group7:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group7:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group7:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group8:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group8:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group8:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group8:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group8:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group9:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group9:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group9:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group9:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group9:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group10:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group10:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group10:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group10:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group10:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group11:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group11:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group11:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group11:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group11:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group12:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group12:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group12:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group12:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group12:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group13:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group13:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group13:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group13:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group13:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group14:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group14:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group14:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group14:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group14:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group15:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group15:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group15:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group15:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group15:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group16:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group16:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group16:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group16:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group16:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group17:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group17:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group17:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group17:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group17:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group18:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group18:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group18:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group18:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group18:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group19:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group19:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group19:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group19:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group19:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group20:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group20:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group20:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group20:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group20:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group21:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group21:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group21:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group21:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group21:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group22:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group22:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group22:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group22:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group22:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:group23:curriculum",
+      "passed": true
+    },
+    {
+      "check": "kl:group23:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "kl:group23:reward",
+      "passed": true
+    },
+    {
+      "check": "kl:group23:update",
+      "passed": true
+    },
+    {
+      "check": "kl:group23:seed",
+      "passed": true
+    },
+    {
+      "check": "kl:final checkpoint step",
+      "passed": true
+    },
+    {
+      "check": "kl:same SFT starting weights",
+      "passed": true
+    },
+    {
+      "check": "kl:optimizer2",
+      "passed": true
+    },
+    {
+      "check": "kl:optimizer3",
+      "passed": true
+    },
+    {
+      "check": "kl:optimizer4",
+      "passed": true
+    },
+    {
+      "check": "kl:optimizer5",
+      "passed": true
+    },
+    {
+      "check": "kl:optimizer6",
+      "passed": true
+    },
+    {
+      "check": "kl:optimizer7",
+      "passed": true
+    },
+    {
+      "check": "kl:optimizer8",
+      "passed": true
+    },
+    {
+      "check": "kl:optimizer9",
+      "passed": true
+    },
+    {
+      "check": "kl:optimizer10",
+      "passed": true
+    },
+    {
+      "check": "kl:dev8",
+      "passed": true
+    },
+    {
+      "check": "kl:dev16",
+      "passed": true
+    },
+    {
+      "check": "kl:dev24",
+      "passed": true
+    },
+    {
+      "check": "kl:finite updates",
+      "passed": true
+    },
+    {
+      "check": "kl:KL measured",
+      "passed": true
+    },
+    {
+      "check": "shaped:24 contiguous groups",
+      "passed": true
+    },
+    {
+      "check": "shaped:96 selected trajectories",
+      "passed": true
+    },
+    {
+      "check": "shaped:train-only tasks",
+      "passed": true
+    },
+    {
+      "check": "shaped:official score agrees with success",
+      "passed": true
+    },
+    {
+      "check": "shaped:group0:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group0:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group0:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group0:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group0:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group1:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group1:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group1:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group1:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group1:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group2:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group2:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group2:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group2:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group2:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group3:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group3:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group3:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group3:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group3:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group4:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group4:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group4:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group4:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group4:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group5:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group5:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group5:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group5:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group5:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group6:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group6:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group6:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group6:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group6:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group7:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group7:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group7:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group7:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group7:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group8:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group8:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group8:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group8:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group8:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group9:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group9:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group9:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group9:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group9:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group10:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group10:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group10:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group10:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group10:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group11:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group11:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group11:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group11:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group11:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group12:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group12:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group12:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group12:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group12:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group13:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group13:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group13:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group13:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group13:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group14:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group14:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group14:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group14:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group14:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group15:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group15:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group15:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group15:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group15:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group16:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group16:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group16:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group16:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group16:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group17:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group17:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group17:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group17:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group17:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group18:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group18:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group18:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group18:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group18:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group19:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group19:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group19:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group19:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group19:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group20:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group20:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group20:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group20:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group20:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group21:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group21:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group21:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group21:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group21:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group22:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group22:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group22:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group22:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group22:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:group23:curriculum",
+      "passed": true
+    },
+    {
+      "check": "shaped:group23:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:group23:reward",
+      "passed": true
+    },
+    {
+      "check": "shaped:group23:update",
+      "passed": true
+    },
+    {
+      "check": "shaped:group23:seed",
+      "passed": true
+    },
+    {
+      "check": "shaped:final checkpoint step",
+      "passed": true
+    },
+    {
+      "check": "shaped:same SFT starting weights",
+      "passed": true
+    },
+    {
+      "check": "shaped:optimizer2",
+      "passed": true
+    },
+    {
+      "check": "shaped:optimizer3",
+      "passed": true
+    },
+    {
+      "check": "shaped:optimizer4",
+      "passed": true
+    },
+    {
+      "check": "shaped:optimizer5",
+      "passed": true
+    },
+    {
+      "check": "shaped:optimizer6",
+      "passed": true
+    },
+    {
+      "check": "shaped:optimizer7",
+      "passed": true
+    },
+    {
+      "check": "shaped:optimizer8",
+      "passed": true
+    },
+    {
+      "check": "shaped:optimizer9",
+      "passed": true
+    },
+    {
+      "check": "shaped:dev8",
+      "passed": true
+    },
+    {
+      "check": "shaped:dev16",
+      "passed": true
+    },
+    {
+      "check": "shaped:dev24",
+      "passed": true
+    },
+    {
+      "check": "shaped:finite updates",
+      "passed": true
+    },
+    {
+      "check": "shaped:KL measured",
+      "passed": true
+    },
+    {
+      "check": "consistent:24 contiguous groups",
+      "passed": true
+    },
+    {
+      "check": "consistent:96 selected trajectories",
+      "passed": true
+    },
+    {
+      "check": "consistent:train-only tasks",
+      "passed": true
+    },
+    {
+      "check": "consistent:official score agrees with success",
+      "passed": true
+    },
+    {
+      "check": "consistent:group0:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group0:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group0:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group0:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group0:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group1:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group1:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group1:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group1:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group1:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group2:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group2:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group2:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group2:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group2:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group3:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group3:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group3:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group3:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group3:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group4:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group4:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group4:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group4:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group4:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group5:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group5:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group5:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group5:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group5:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group6:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group6:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group6:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group6:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group6:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group7:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group7:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group7:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group7:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group7:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group8:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group8:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group8:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group8:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group8:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group9:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group9:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group9:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group9:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group9:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group10:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group10:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group10:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group10:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group10:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group11:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group11:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group11:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group11:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group11:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group12:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group12:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group12:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group12:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group12:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group13:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group13:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group13:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group13:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group13:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group14:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group14:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group14:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group14:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group14:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group15:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group15:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group15:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group15:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group15:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group16:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group16:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group16:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group16:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group16:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group17:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group17:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group17:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group17:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group17:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group18:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group18:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group18:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group18:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group18:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group19:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group19:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group19:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group19:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group19:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group20:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group20:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group20:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group20:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group20:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group21:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group21:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group21:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group21:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group21:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group22:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group22:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group22:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group22:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group22:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:group23:curriculum",
+      "passed": true
+    },
+    {
+      "check": "consistent:group23:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:group23:reward",
+      "passed": true
+    },
+    {
+      "check": "consistent:group23:update",
+      "passed": true
+    },
+    {
+      "check": "consistent:group23:seed",
+      "passed": true
+    },
+    {
+      "check": "consistent:final checkpoint step",
+      "passed": true
+    },
+    {
+      "check": "consistent:same SFT starting weights",
+      "passed": true
+    },
+    {
+      "check": "consistent:optimizer2",
+      "passed": true
+    },
+    {
+      "check": "consistent:optimizer3",
+      "passed": true
+    },
+    {
+      "check": "consistent:optimizer4",
+      "passed": true
+    },
+    {
+      "check": "consistent:optimizer5",
+      "passed": true
+    },
+    {
+      "check": "consistent:optimizer6",
+      "passed": true
+    },
+    {
+      "check": "consistent:optimizer7",
+      "passed": true
+    },
+    {
+      "check": "consistent:optimizer8",
+      "passed": true
+    },
+    {
+      "check": "consistent:optimizer9",
+      "passed": true
+    },
+    {
+      "check": "consistent:optimizer10",
+      "passed": true
+    },
+    {
+      "check": "consistent:dev8",
+      "passed": true
+    },
+    {
+      "check": "consistent:dev16",
+      "passed": true
+    },
+    {
+      "check": "consistent:dev24",
+      "passed": true
+    },
+    {
+      "check": "consistent:finite updates",
+      "passed": true
+    },
+    {
+      "check": "consistent:KL measured",
+      "passed": true
+    },
+    {
+      "check": "progress:24 contiguous groups",
+      "passed": true
+    },
+    {
+      "check": "progress:96 selected trajectories",
+      "passed": true
+    },
+    {
+      "check": "progress:train-only tasks",
+      "passed": true
+    },
+    {
+      "check": "progress:official score agrees with success",
+      "passed": true
+    },
+    {
+      "check": "progress:group0:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group0:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group0:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group0:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group0:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group0:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group0:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group0:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group1:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group1:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group1:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group1:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group1:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group1:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group1:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group1:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group2:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group2:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group2:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group2:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group2:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group2:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group2:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group2:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group3:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group3:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group3:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group3:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group3:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group3:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group3:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group3:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group4:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group4:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group4:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group4:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group4:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group4:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group4:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group4:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group5:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group5:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group5:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group5:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group5:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group5:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group5:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group5:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group6:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group6:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group6:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group6:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group6:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group6:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group6:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group6:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group7:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group7:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group7:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group7:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group7:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group7:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group7:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group7:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group8:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group8:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group8:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group8:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group8:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group8:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group8:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group8:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group9:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group9:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group9:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group9:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group9:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group9:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group9:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group9:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group10:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group10:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group10:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group10:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group10:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group10:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group10:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group10:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group11:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group11:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group11:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group11:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group11:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group11:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group11:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group11:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group12:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group12:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group12:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group12:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group12:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group12:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group12:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group12:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group13:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group13:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group13:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group13:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group13:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group13:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group13:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group13:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group14:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group14:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group14:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group14:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group14:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group14:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group14:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group14:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group15:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group15:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group15:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group15:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group15:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group15:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group15:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group15:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group16:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group16:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group16:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group16:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group16:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group16:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group16:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group16:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group17:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group17:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group17:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group17:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group17:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group17:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group17:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group17:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group18:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group18:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group18:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group18:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group18:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group18:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group18:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group18:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group19:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group19:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group19:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group19:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group19:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group19:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group19:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group19:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group20:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group20:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group20:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group20:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group20:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group20:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group20:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group20:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group21:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group21:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group21:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group21:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group21:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group21:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group21:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group21:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group22:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group22:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group22:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group22:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group22:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group22:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group22:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group22:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group23:trajectory1:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group23:trajectory1:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group23:trajectory0:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group23:trajectory0:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group23:trajectory3:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group23:trajectory3:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group23:trajectory2:offline progress",
+      "passed": true
+    },
+    {
+      "check": "progress:group23:trajectory2:observations unchanged",
+      "passed": true
+    },
+    {
+      "check": "progress:group0:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group0:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group0:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group0:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group0:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group1:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group1:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group1:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group1:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group1:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group2:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group2:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group2:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group2:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group2:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group3:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group3:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group3:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group3:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group3:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group4:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group4:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group4:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group4:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group4:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group5:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group5:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group5:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group5:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group5:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group6:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group6:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group6:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group6:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group6:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group7:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group7:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group7:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group7:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group7:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group8:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group8:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group8:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group8:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group8:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group9:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group9:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group9:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group9:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group9:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group10:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group10:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group10:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group10:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group10:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group11:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group11:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group11:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group11:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group11:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group12:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group12:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group12:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group12:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group12:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group13:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group13:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group13:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group13:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group13:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group14:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group14:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group14:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group14:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group14:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group15:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group15:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group15:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group15:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group15:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group16:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group16:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group16:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group16:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group16:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group17:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group17:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group17:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group17:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group17:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group18:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group18:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group18:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group18:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group18:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group19:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group19:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group19:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group19:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group19:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group20:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group20:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group20:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group20:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group20:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group21:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group21:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group21:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group21:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group21:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group22:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group22:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group22:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group22:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group22:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:group23:curriculum",
+      "passed": true
+    },
+    {
+      "check": "progress:group23:sampling checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:group23:reward",
+      "passed": true
+    },
+    {
+      "check": "progress:group23:update",
+      "passed": true
+    },
+    {
+      "check": "progress:group23:seed",
+      "passed": true
+    },
+    {
+      "check": "progress:final checkpoint step",
+      "passed": true
+    },
+    {
+      "check": "progress:same SFT starting weights",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer2",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer3",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer4",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer5",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer6",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer7",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer8",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer9",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer10",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer11",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer12",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer13",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer14",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer15",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer16",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer17",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer18",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer19",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer20",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer21",
+      "passed": true
+    },
+    {
+      "check": "progress:optimizer22",
+      "passed": true
+    },
+    {
+      "check": "progress:dev8",
+      "passed": true
+    },
+    {
+      "check": "progress:dev16",
+      "passed": true
+    },
+    {
+      "check": "progress:dev24",
+      "passed": true
+    },
+    {
+      "check": "progress:finite updates",
+      "passed": true
+    },
+    {
+      "check": "progress:KL measured",
+      "passed": true
+    },
+    {
+      "check": "20261013T085720Z_art_evaluate_39b772c5:selection coverage:-1",
+      "passed": true
+    },
+    {
+      "check": "20261013T134118Z_art_evaluate_937bcecf:selection coverage:-1",
+      "passed": true
+    },
+    {
+      "check": "selection baseline scores match traces",
+      "passed": true
+    },
+    {
+      "check": "registered candidates recorded",
+      "passed": true
+    },
+    {
+      "check": "kl:seed42 checkpoint selection",
+      "passed": true
+    },
+    {
+      "check": "20261013T090856Z_art_grpo_644695c4:selection coverage:8",
+      "passed": true
+    },
+    {
+      "check": "20261013T134714Z_art_evaluate_379efe03:selection coverage:-1",
+      "passed": true
+    },
+    {
+      "check": "kl:combined selection score",
+      "passed": true
+    },
+    {
+      "check": "kl:selected adapter matches checkpoint",
+      "passed": true
+    },
+    {
+      "check": "outcome:seed42 checkpoint selection",
+      "passed": true
+    },
+    {
+      "check": "20261013T095748Z_art_grpo_a83a89bf:selection coverage:16",
+      "passed": true
+    },
+    {
+      "check": "20261013T135329Z_art_evaluate_64c3c75f:selection coverage:-1",
+      "passed": true
+    },
+    {
+      "check": "outcome:combined selection score",
+      "passed": true
+    },
+    {
+      "check": "outcome:selected adapter matches checkpoint",
+      "passed": true
+    },
+    {
+      "check": "consistent:seed42 checkpoint selection",
+      "passed": true
+    },
+    {
+      "check": "20261013T104407Z_art_grpo_e695b6fe:selection coverage:8",
+      "passed": true
+    },
+    {
+      "check": "20261013T140525Z_art_evaluate_d8b8f732:selection coverage:-1",
+      "passed": true
+    },
+    {
+      "check": "consistent:combined selection score",
+      "passed": true
+    },
+    {
+      "check": "consistent:selected adapter matches checkpoint",
+      "passed": true
+    },
+    {
+      "check": "shaped:seed42 checkpoint selection",
+      "passed": true
+    },
+    {
+      "check": "20261013T113740Z_art_grpo_fc4d2afb:selection coverage:24",
+      "passed": true
+    },
+    {
+      "check": "20261013T144632Z_art_evaluate_0fb71355:selection coverage:-1",
+      "passed": true
+    },
+    {
+      "check": "shaped:combined selection score",
+      "passed": true
+    },
+    {
+      "check": "shaped:selected adapter matches checkpoint",
+      "passed": true
+    },
+    {
+      "check": "progress:seed42 checkpoint selection",
+      "passed": true
+    },
+    {
+      "check": "20261013T122836Z_art_grpo_e4228c54:selection coverage:16",
+      "passed": true
+    },
+    {
+      "check": "20261013T150255Z_art_evaluate_672c3245:selection coverage:-1",
+      "passed": true
+    },
+    {
+      "check": "progress:combined selection score",
+      "passed": true
+    },
+    {
+      "check": "progress:selected adapter matches checkpoint",
+      "passed": true
+    },
+    {
+      "check": "final choice follows registered dev rule",
+      "passed": true
+    },
+    {
+      "check": "test gate respected",
+      "passed": true
+    },
+    {
+      "check": "original SFT unchanged:README.md",
+      "passed": true
+    },
+    {
+      "check": "original SFT unchanged:adapter_model.safetensors",
+      "passed": true
+    },
+    {
+      "check": "original SFT unchanged:adapter_config.json",
+      "passed": true
+    },
+    {
+      "check": "original SFT unchanged:chat_template.jinja",
+      "passed": true
+    },
+    {
+      "check": "original SFT unchanged:tokenizer_config.json",
+      "passed": true
+    },
+    {
+      "check": "original SFT unchanged:special_tokens_map.json",
+      "passed": true
+    },
+    {
+      "check": "original SFT unchanged:added_tokens.json",
+      "passed": true
+    },
+    {
+      "check": "original SFT unchanged:vocab.json",
+      "passed": true
+    },
+    {
+      "check": "original SFT unchanged:merges.txt",
+      "passed": true
+    },
+    {
+      "check": "original SFT unchanged:tokenizer.json",
+      "passed": true
+    },
+    {
+      "check": "original SFT unchanged:training_args.bin",
+      "passed": true
+    },
+    {
+      "check": "numerical replay input unchanged:tokens.pt",
+      "passed": true
+    },
+    {
+      "check": "numerical replay input unchanged:group_ids.pt",
+      "passed": true
+    },
+    {
+      "check": "numerical replay input unchanged:parent_ids.pt",
+      "passed": true
+    },
+    {
+      "check": "numerical replay input unchanged:input_pos.pt",
+      "passed": true
+    },
+    {
+      "check": "numerical replay input unchanged:assistant_mask.pt",
+      "passed": true
+    },
+    {
+      "check": "numerical replay input unchanged:logprobs.pt",
+      "passed": true
+    },
+    {
+      "check": "numerical replay input unchanged:advantages.pt",
+      "passed": true
+    },
+    {
+      "check": "numerical replay input unchanged:weights.pt",
+      "passed": true
+    },
+    {
+      "check": "numerical replay input unchanged:descriptor.json",
+      "passed": true
+    },
+    {
+      "check": "numerical replay before formal update",
+      "passed": true
+    },
+    {
+      "check": "numerical replay finite",
+      "passed": true
+    }
+  ],
+  "limits": [
+    "Does not assert a positive effect or full policy compliance",
+    "Remote user/judge aliases and generation are not fully deterministic"
+  ]
+}

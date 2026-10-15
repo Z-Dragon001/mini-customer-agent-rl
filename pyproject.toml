@@ -7,11 +7,12 @@ name = "mini-customer-agent-rl"
 version = "0.1.0"
 description = "A compact customer-service tool-agent harness for trace analysis, SFT and optional GRPO."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.12,<3.14"
 dependencies = []
 
 [project.optional-dependencies]
 api = ["openai>=1.40"]
+retail = ["tau2", "openpipe-art==0.5.16", "openai>=2,<3", "websockets>=14,<16"]
 train = [
   "accelerate>=1.2",
   "datasets>=3.0",
@@ -25,6 +26,11 @@ dev = ["pytest>=8.0"]
 
 [project.scripts]
 customer-agent = "mini_customer_agent.cli:main"
+retail-agent = "mini_customer_agent.retail.cli:main"
+retail-prepare = "mini_customer_agent.retail.data:main"
+
+[tool.uv.sources]
+tau2 = { path = "third_party/tau2-bench", editable = true }
 
 [tool.setuptools.packages.find]
 where = ["src"]

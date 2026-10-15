@@ -1,0 +1,22 @@
+{
+  "src/mini_customer_agent/retail/__init__.py": "e3069b591989012f1a36d299749b857d32e131e233b801bc2de00739dc207b38",
+  "src/mini_customer_agent/retail/data.py": "c460e5ee66e2e60c96c39b75cc705337b32e5b5ac19c31da68a36b7f6b491b7b",
+  "src/mini_customer_agent/retail/config.py": "aff4ef9d396cb5a0b715b13f31ccbd0784032aa18381d2acfd2798dda96fb2c2",
+  "src/mini_customer_agent/retail/dataset.py": "7d988c8a8f0611c2bc0d14c3fe54f789068dafd01f36d5bf2bf99ce70611ddb5",
+  "src/mini_customer_agent/retail/rollout.py": "dde8a1b4244b3f46408c9830067e7c68baade34cdf42b14eff822e5fae23452c",
+  "src/mini_customer_agent/retail/reporting.py": "38708784af8932c606cc5eade59de91a62e74106e3cc20b657d12a57deb31aa5",
+  "src/mini_customer_agent/retail/cli.py": "916564fb3581c12e08d27d1db08d6bc77aae099967e4bf578d44e46ae39a25fb",
+  "src/mini_customer_agent/retail/training.py": "c846982f0311489613db18836ddb3834fb986db09b6ed00ed599c784c5396ea5",
+  "src/mini_customer_agent/retail/api.py": "bb4f03d273a4b33a6fd7456ccdda8138f911998f28b8890ff4fd9dcff43d291f",
+  "src/mini_customer_agent/retail/local_model.py": "3ec76d5506e75876d5f10a74ddc0863392c90f3cd873679bf4009266b15ad6d0",
+  "src/mini_customer_agent/retail/grounding.py": "d6aa2f45a2829ae3fa68f9f4417e645f1f0da4bf557f2f6fbaa69faafb4fa090",
+  "src/mini_customer_agent/retail/worker.py": "2e4cddfbd79777f137de84e0ef8e0990187562b06873e5fe0129da004eb5642e",
+  "src/mini_customer_agent/retail/judging.py": "11d8841ba03fe7508975f24155d78b85aeb5a667991581f5bf64c12312340136",
+  "scripts/retail_report.py": "4fd0b945242dc89e3f3ff6f3fbf2d7d47acc676c2ab5837b386c6735202b9b80",
+  "scripts/prepare_retail_training.py": "000b164ab7d1d97808f86c521b64134d0c9661b48c6771fe799815b2ed3c06d1",
+  "scripts/review_retail_training.py": "9b9a7f721d0efe4e3afb16a5c81e1b31ff37b967f32db14eb31d70890c81e5db",
+  "scripts/run_retail_training_stages.py": "4dd3f68c4c76ecbe08061de81bba41834502c5c7ebf8029f31ec5e87dbc6abe6",
+  "scripts/retail.sh": "79b478ac708e6858cd51fa3e1d9a9037ac77227d2270c4a0318a2595f8c29092",
+  "configs/retail.experiment.json": "45f3e4243e06b1345798bf502e64ff65533a2c40db3703e4f1601292d7d1b4de",
+  "runtimes/art/uv.lock": "8afd5ce6494490bd683b664b3c387edd612355f96df69b3aaa3f18a67b139c54"
+}
